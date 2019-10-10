@@ -1,4 +1,4 @@
-import ace from 'brace'; // eslint-disable-line
+import ace from '../../ace-builds/src-noconflict/ace'; // eslint-disable-line
 import merge from 'lodash/merge';
 import debounce from 'lodash/debounce';
 import throttle from 'lodash/throttle';
